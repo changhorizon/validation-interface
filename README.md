@@ -43,8 +43,8 @@ src
 ### 示例 1：自定义 Email 验证器
 
 ```php
-use Hizpark\ValidationInterface\Result\ValidationResult;
-use Hizpark\ValidationInterface\Validator\AbstractValidator;
+use ChangHorizon\ValidationInterface\Result\ValidationResult;
+use ChangHorizon\ValidationInterface\Validator\AbstractValidator;
 
 class EmailValidator extends AbstractValidator
 {
@@ -73,7 +73,7 @@ if ($result->isValid()) {
 }
 ```
 
-## 📐 接口与抽象类说明
+## 📐 接口说明
 
 ### AbstractValidator
 
@@ -82,8 +82,8 @@ if ($result->isValid()) {
 ```php
 namespace Hizpark\ValidationInterface\Validator;
 
-use Hizpark\ValidationInterface\Result\ValidationResult;
-use Hizpark\ValidationInterface\ValidatorInterface;
+use ChangHorizon\ValidationInterface\Result\ValidationResult;
+use ChangHorizon\ValidationInterface\ValidatorInterface;
 
 abstract class AbstractValidator implements ValidatorInterface
 {
