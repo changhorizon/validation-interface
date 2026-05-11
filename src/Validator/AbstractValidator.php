@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\ValidationInterface\Validator;
+namespace ChangHorizon\ValidationInterface\Validator;
 
-use Hizpark\ValidationInterface\Result\ValidationResult;
-use Hizpark\ValidationInterface\ValidatorInterface;
+use ChangHorizon\ValidationInterface\Result\ValidationResult;
+use ChangHorizon\ValidationInterface\ValidatorInterface;
 
 abstract class AbstractValidator implements ValidatorInterface
 {

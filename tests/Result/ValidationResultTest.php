@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\ValidationInterface\Tests\Result;
+namespace ChangHorizon\ValidationInterface\Tests\Result;
 
-use Hizpark\ValidationInterface\Result\ValidationResult;
+use ChangHorizon\ValidationInterface\Result\ValidationResult;
 use PHPUnit\Framework\TestCase;
 
 class ValidationResultTest extends TestCase

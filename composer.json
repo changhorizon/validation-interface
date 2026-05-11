@@ -1,5 +1,5 @@
 {
-    "name": "hizpark/validation-interface",
+    "name": "changhorizon/validation-interface",
     "description": "Unified, testable, and extensible validation for any PHP project",
     "keywords": [],
     "type": "library",
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hizpark\\ValidationInterface\\": "src/"
+            "ChangHorizon\\ValidationInterface\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hizpark\\ValidationInterface\\Tests\\": "tests/"
+            "ChangHorizon\\ValidationInterface\\Tests\\": "tests/"
         }
     },
     "scripts": {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\ValidationInterface;
+namespace ChangHorizon\ValidationInterface;
 
 interface ValidationResultInterface
 {

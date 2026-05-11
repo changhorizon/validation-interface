@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\ValidationInterface\Result;
+namespace ChangHorizon\ValidationInterface\Result;
 
-use Hizpark\ValidationInterface\ValidationResultInterface;
+use ChangHorizon\ValidationInterface\ValidationResultInterface;
 
 class ValidationResult implements ValidationResultInterface
 {

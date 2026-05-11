@@ -2,13 +2,13 @@
 
 > Unified, testable, and extensible validation for any PHP project
 
-![License](https://img.shields.io/github/license/hizpark/validation-interface?style=flat-square)
-![Latest Version](https://img.shields.io/packagist/v/hizpark/validation-interface?style=flat-square)
+![License](https://img.shields.io/github/license/changhorizon/validation-interface?style=flat-square)
+![Latest Version](https://img.shields.io/packagist/v/changhorizon/validation-interface?style=flat-square)
 ![PHP Version](https://img.shields.io/badge/php-8.2--8.4-blue?style=flat-square)
 ![Static Analysis](https://img.shields.io/badge/static_analysis-PHPStan-blue?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-PHPUnit-brightgreen?style=flat-square)
-[![codecov](https://codecov.io/gh/hizpark/validation-interface/branch/main/graph/badge.svg)](https://codecov.io/gh/hizpark/validation-interface)
-![CI](https://github.com/hizpark/validation-interface/actions/workflows/ci.yml/badge.svg?style=flat-square)
+[![codecov](https://codecov.io/gh/changhorizon/validation-interface/branch/main/graph/badge.svg)](https://codecov.io/gh/changhorizon/validation-interface)
+![CI](https://github.com/changhorizon/validation-interface/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
 A lightweight, framework-agnostic validation contract package that provides generic validator and validation result interfaces. It is designed to help developers build consistent, testable, and easily extensible validation logic, suitable for scenarios such as upload validation, form validation, and custom rule implementation.
 
@@ -23,7 +23,7 @@ A lightweight, framework-agnostic validation contract package that provides gene
 ## 📦 安装
 
 ```bash
-composer require hizpark/validation-interface
+composer require changhorizon/validation-interface
 ```
 
 ## 📂 目录结构
