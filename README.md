@@ -80,7 +80,7 @@ if ($result->isValid()) {
 > 验证器基类，每个子类接收目标对象并实现 validate() 方法返回 ValidationResult
 
 ```php
-namespace Hizpark\ValidationInterface\Validator;
+namespace ChangHorizon\ValidationInterface\Validator;
 
 use ChangHorizon\ValidationInterface\Result\ValidationResult;
 use ChangHorizon\ValidationInterface\ValidatorInterface;
@@ -113,7 +113,7 @@ abstract class AbstractValidator implements ValidatorInterface
 > 用于表示验证结果，封装验证是否通过、错误信息与错误代码
 
 ```php
-namespace Hizpark\ValidationInterface\Result;
+namespace ChangHorizon\ValidationInterface\Result;
 
 ValidationResult::ok();                   // 构造成功结果
 ValidationResult::fail('error message');  // 构造失败结果
